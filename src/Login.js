@@ -81,7 +81,7 @@ export default function Login({ setToken }) {
           type="submit"
           className="px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded w-full transition-color duration-200 "
         >
-          {authLoading ? "Loggin in...." : "Login"}
+          {authLoading ? "Logging in...." : "Login"}
         </button>
       </form>
       <div className="mt-5 text-center text-gray-700">
