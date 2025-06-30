@@ -54,7 +54,7 @@ function App() {
   };
 
   const deleteTask = async (id) => {
-    await fetch(`https://todobackend-y0yl.onrender.com//${id}`, {
+    await fetch(`https://todobackend-y0yl.onrender.com/tasks/${id}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${token}` },
     });
